@@ -1,7 +1,6 @@
-FROM python:3-alpine
+FROM python:3.11-alpine
 
-LABEL maintainer='<author>'
-LABEL version='0.0.0-dev.0-build.0'
+LABEL org.opencontainers.image.source https://github.com/ivanmorenoj/webssh
 
 ADD . /code
 WORKDIR /code
